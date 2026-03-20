@@ -11,7 +11,8 @@ MongoDB database (optional extension)
 
 Kubernetes deployments and services
 
-🧱 Project Structure
+
+# 🧱 Project Structure
 
 k8s-microservices/
 
@@ -33,7 +34,9 @@ k8s-microservices/
  
  └── README.md
 
- ⚙️ Technologies Used
+ 
+
+ # ⚙️ Technologies Used
 
   .Docker
 
@@ -43,7 +46,9 @@ k8s-microservices/
 
   .MongoDB
 
-Step 1: Build Docker Image
+  
+
+# Step 1: Build Docker Image
 
  .Navigate to backend folder: cd backend
 
