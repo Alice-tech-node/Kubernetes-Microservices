@@ -18,12 +18,17 @@ k8s-microservices/
  ├── backend/
  
  │    ├── app.py
+ 
  │    ├── requirements.txt
+ 
  │    └── Dockerfile
  
  ├── k8s/
+ 
  │    ├── backend-deployment.yaml
+ 
  │    ├── backend-service.yaml
+ 
  │    └── mongo.yaml
  
  └── README.md
