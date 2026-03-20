@@ -38,23 +38,23 @@ k8s-microservices/
 
  # ⚙️ Technologies Used
 
-  .Docker
+  Docker
 
-  .Kubernetes
+  Kubernetes
 
-  .Python (Flask)
+  Python (Flask)
 
-  .MongoDB
+  MongoDB
 
   
 
 # Step 1: Build Docker Image
 
- .Navigate to backend folder: cd backend
+ Navigate to backend folder: cd backend
 
- .Build image: docker build -t <your-dockerhub-username>/backend:v1 .
+ Build image: docker build -t <your-dockerhub-username>/backend:v1 .
 
- .Push to Docker Hub: docker push <your-dockerhub-username>/backend:v1
+ Push to Docker Hub: docker push <your-dockerhub-username>/backend:v1
 
 
 # Step 2: Deploy to Kubernetes
@@ -63,9 +63,8 @@ Apply deployment: kubectl apply -f k8s/backend-deployment.yaml
 
 Apply service: kubectl apply -f k8s/backend-service.yaml
 
-Check resources: kubectl get pods
-
-                 kubectl get svc
+Check resources:    kubectl get pods
+                    kubectl get svc
 
 
 # Step 3: Access the Application
