@@ -64,6 +64,7 @@ Apply deployment: kubectl apply -f k8s/backend-deployment.yaml
 Apply service: kubectl apply -f k8s/backend-service.yaml
 
 Check resources:    kubectl get pods
+
                     kubectl get svc
 
 
