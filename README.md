@@ -57,8 +57,62 @@ k8s-microservices/
  .Push to Docker Hub: docker push <your-dockerhub-username>/backend:v1
 
 
+# Step 2: Deploy to Kubernetes
+
+Apply deployment: kubectl apply -f k8s/backend-deployment.yaml
+
+Apply service: kubectl apply -f k8s/backend-service.yaml
+
+Check resources: kubectl get pods
+
+                 kubectl get svc
 
 
+# Step 3: Access the Application
+
+Find NodePort: kubectl get svc backend-service
+
+Access in browser: http://<NODE-IP>:<NODE-PORT>
+
+# Step 4: Deploy MongoDB
+
+kubectl apply -f k8s/mongo.yaml
+
+# 📈 Features
+
+Containerized backend using Docker
+
+Scalable deployment using Kubernetes
+
+Service exposure via NodePort
+
+Modular microservices structure
+
+
+# 🧠 Key Learnings
+
+How to build and push Docker images
+
+Kubernetes Deployments and Services
+
+Container orchestration basics
+
+Microservices architecture
+
+# 🚀 Future Improvements
+
+Add frontend (React)
+
+Implement CI/CD pipeline
+
+Add Ingress controller
+
+Add monitoring (Prometheus & Grafana)
+
+
+# 👩‍💻 Author
+
+Your Name
 
 
 
