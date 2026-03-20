@@ -14,33 +14,37 @@ Kubernetes deployments and services
 🧱 Project Structure
 
 k8s-microservices/
+
  ├── backend/
+ 
  │    ├── app.py
  │    ├── requirements.txt
  │    └── Dockerfile
+ 
  ├── k8s/
  │    ├── backend-deployment.yaml
  │    ├── backend-service.yaml
  │    └── mongo.yaml
+ 
  └── README.md
 
  ⚙️ Technologies Used
 
-Docker
+  .Docker
 
-Kubernetes
+  .Kubernetes
 
-Python (Flask)
+  .Python (Flask)
 
-MongoDB
+  .MongoDB
 
 Step 1: Build Docker Image
 
-Navigate to backend folder:cd backend
+ .Navigate to backend folder: cd backend
 
-Build image:docker build -t <your-dockerhub-username>/backend:v1 .
+ .Build image: docker build -t <your-dockerhub-username>/backend:v1 .
 
-Push to Docker Hub:docker push <your-dockerhub-username>/backend:v1
+ .Push to Docker Hub: docker push <your-dockerhub-username>/backend:v1
 
 
 
